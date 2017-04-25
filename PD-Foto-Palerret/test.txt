@@ -1,0 +1,42 @@
+Array
+(
+    [cropper_restore] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => Foto Palerret product test_image.jpg
+                    [users_image_info] => Array
+                        (
+                            [image_name] => test_image.jpg
+                            [image_path] => /home/ebdev/pinedev.in.ua/jun.dima/wp-content/plugins/PD-Foto-Palerret/assets/users_images/
+                            [image_type] => image/jpeg
+                            [orig_image] => test_image_original_2017-03-17 14:40:12.jpg
+                            [image_path_url] => http://jun.dima.pinedev.in.ua/wp-content/plugins/PD-Foto-Palerret/assets/users_images/
+                        )
+
+                    [options] => Array
+                        (
+                            [image_width] => 1
+                            [image_height] => 1
+                            [canvas_sort_option] => canvas sort option 1
+                            [canvas_edges_option] => canvas edges 1
+                            [canvas_strech_bar_option] => 1
+                            [total_price] => 4
+                        )
+
+                    [cropper_data] => Array
+                        (
+                            [x] => 106.2
+                            [y] => 47.699999999999996
+                            [width] => 222.6
+                            [height] => 222.6
+                            [rotate] => 0
+                            [scaleX] => 1
+                            [scaleY] => 1
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,180 @@
+#users_custom_image
+{
+    max-width: 100%;
+}
+
+input[type="number"]
+{
+    width: 5.5em;
+}
+
+.hint p
+{
+    border: 1px solid black;
+    padding: 3px;
+    margin: 6px 0 0;
+    text-align: justify;
+}
+/*.dimensions-item{*/
+/*border: 1px solid #000;*/
+/*padding: 15px;*/
+/*margin-bottom: 5px;*/
+/*}*/
+
+#image_delete_button
+{
+    cursor: pointer;
+    position:absolute;
+    right:0;
+    top:0;
+    padding: 0 5px;
+    background: rgba(128, 128, 128, 0.5);
+}
+
+ul{
+    margin: 0;
+}
+
+.canvas_options .item
+{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.noUi-base
+{
+    background: linear-gradient(to right, #ff0202, #16f70e);
+}
+
+.noUi-pips-horizontal
+{
+    height: 30px;
+}
+
+.image_interior_preview
+{
+    margin-top: 45px;
+}
+
+.item label
+{
+    float: left;
+    width: 48%;
+    margin-right: 5px;
+}
+.strech_bar:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.item img
+{
+    position: relative;
+}
+.strech_bar input[type=radio]
+{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+img{
+    width:100%;
+    height:auto;
+}
+
+.images_interior_preview {
+    max-width: 45%;
+    display: inline-block;
+}
+
+#cropped_image_interior_preview {
+    width: 30%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    border: 0px;
+}
+#image_interior_preview
+{
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.interior_image_preview
+{
+    position: relative;
+}
+
+.crop_zoom{
+    margin-right: 10px;
+}
+
+.crop_rotate{
+    margin-right: 10px;
+}
+
+.crop_scale{
+    margin-right: 10px;
+}
+
+.crop_lock{
+    margin-right: 15px;
+}
+
+.cropper-container {
+    font-size : 15px;
+    font-color : black;
+}
+
+.cropper-line{
+    opacity : 0.5;
+    text-align : center;
+    z-index: 1;
+}
+
+.border_text {
+    position: absolute;
+    vertical-align: middle;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.rotate_m90 {
+    position: absolute;
+}
+
+.rotate_p90 {
+
+    position: absolute;
+
+}
+
+.cropper-line.line-e{
+    right: 0px;
+}
+.cropper-line.line-n{
+    top: 0px;
+}
+.cropper-line.line-w{
+    left: 0px;
+}
+.cropper-line.line-s{
+    bottom: 0px;
+}
+
+.delete_image_preview {
+    cursor: pointer;
+}
+
+#cropper_img_prev {
+    postition: relative;
+}
+
+.modal-body {
+    padding: 0;/*123*/
+}
